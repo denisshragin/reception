@@ -1,5 +1,5 @@
 ## Comment écrire des commentaires
-:memo: Afin de faire les commentaires ajoutés dans les CAO plus claires, plus cohérents et exemptes des fautes d’orthographe et de grammaire plusieurs commentaires prédéfinis ont été modifiés et plusieurs nouveaux commentaires ont été ajoutés dans LabPlus en décembre 2025.
+:memo: Afin de faire les commentaires ajoutés dans les CAO plus claires, plus cohérents et exemptes des fautes d’orthographe et de grammaire plusieurs commentaires prédéfinis ont été modifiés et plusieurs nouveaux commentaires ont été ajoutés dans LIMS en décembre 2025.
  
 ### Les changements dans les commentaires de saisie / vérif.
  
@@ -13,12 +13,12 @@ Voir le fichier joint pour les explications des changements effectués.
 - Mettra chque commentaire sur une nouvelle ligne.
 - Mettre une espace entre le nombre et l’unité de mesure, par exemple ’10.36 mg/L’.
 
-| Paramètre      | Unité    | Unité                      |
+| Paramètre      | Unité    | Unité                         |
 |----------------|----------|-------------------------------|
-| Température    | °C       | degré Celcius                 |
-| Conductivité   | µS/cm    | microSymens par centimètre    |
-| oPO4           | mg/L     | milligram par litre           |
-| Débit          | m3/j     | metre cubic par jour          |
+| Température    | °C       | degré Celsius                 |
+| Conductivité   | µS/cm    | microsiemens par centimètre   |
+| oPO4           | mg/L     | milligramme par litre         |
+| Débit          | m3/j     | mètre cube par jour           |
 
 
 S’il s’agite d’un commentaire avec « * » (sauf le commentaire **"* La température a été omise lors de la réception de l'échantillon."**) il faudrait remplacer « * » par la valeur appropriée (date, heure, température), cependant il ne faudrait pas supprimer les espaces qui entournent « * » ni ajouter des nouvelles espaces ni avant, ni après.  
