@@ -19,6 +19,7 @@ site_name = "Commentaires saisie/vérif"
 # Read more: https://zensical.org/docs/setup/basics/#site_description
 site_description = "A set of comments to use for the CAO"
 
+
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
@@ -27,7 +28,7 @@ site_author = "Denis Shragin"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-#site_url = "https://www.example.com/"
+site_url = "https://denisshragin.github.io/reception_comments/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
