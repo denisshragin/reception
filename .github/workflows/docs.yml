@@ -1,4 +1,4 @@
-name: Reception comments
+name: Commentaires. Guide d'utilisateur
 on:
   push:
     branches:
