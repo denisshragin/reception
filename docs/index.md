@@ -1,4 +1,6 @@
-## Comment écrire des commentaires
+---
+title: Écrire un commentaire  # This changes the browser tab title
+---
 
 :memo: Afin de faire les commentaires ajoutés dans les CAO plus claires, plus cohérents et exemptes des fautes d’orthographe et de grammaire plusieurs commentaires prédéfinis ont été modifiés et plusieurs nouveaux commentaires ont été ajoutés dans LIMS en décembre 2025.
  
@@ -15,7 +17,7 @@
 - Utiliser les nom d'analyse complet dans des commentaires, pas d'abréviations, sauf pour les analyses qui ont déjà les abréviations (COV par exemple).
 
 
-### Mieux comrendre le message du client sur CP
+### Mieux comrendre le message du client sur le CP
 
 Il est souvent pas facile de dechiffrer ce qu'il est écrit sur le CP, cependant en sachant les paramètres et les unutés associés il est plus facile de bien comprendre le message du client. Dans le tableau ci-dessous les paramètres et les unités de mesure les plus frequents sur CP des client sont présentés. 
 
