@@ -1,4 +1,4 @@
-name: Commentaires saisie-vérif
+name: Reception comments
 on:
   push:
     branches:

@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Commentaires saisie-vérif"
+site_name = "Reception comments"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -46,9 +46,10 @@ Copyright &copy; 2026 Denis Shragin
 #
 # Read more: https://zensical.org/docs/setup/navigation/
  nav = [
-        { "Get started" = "index.md" },
-        { "Comment créér un bon commentaire" = "best_practices.md" },
+        { "Welcome" = "index.md"},
+        { "Comment créér un bon commentaire" = "bon_comment.md" },
         { "Réception" = "reception.md" },
+        { "Get started" = "get_started.md" },
         { "Markdown in 5min" = "markdown.md" },
 ]
 
@@ -73,8 +74,10 @@ Copyright &copy; 2026 Denis Shragin
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
-# [project.theme]
+[project.theme]
 # variant = "default"
+palette.primary = "deep orange"
+palette.accent = "amber"
 
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"
@@ -120,7 +123,7 @@ features = [
     # Zensical includes an announcement bar. This feature allows users to
     # dismiss it then they have read the announcement.
     # https://zensical.org/docs/setup/header/#announcement-bar
-    "announce.dismiss",
+    # "announce.dismiss",
 
     # If you have a repository configured and turn on this feature, Zensical
     # will generate an edit button for the page. This works for common
@@ -137,7 +140,7 @@ features = [
     # Code annotations allow you to add an icon with a tooltip to your
     # code blocks to provide explanations at crucial points.
     # https://zensical.org/docs/authoring/code-blocks/#code-annotations
-    "content.code.annotate",
+    # "content.code.annotate",
 
     # This feature turns on a button in code blocks that allow users to
     # copy the content to their clipboard without first selecting it.
@@ -147,22 +150,22 @@ features = [
     # Code blocks can include a button to allow for the selection of line
     # ranges by the user.
     # https://zensical.org/docs/authoring/code-blocks/#code-selection-button
-    "content.code.select",
+    # "content.code.select",
 
     # Zensical can render footnotes as inline tooltips, so the user can read
     # the footnote without leaving the context of the document.
     # https://zensical.org/docs/authoring/footnotes/#footnote-tooltips
-    "content.footnote.tooltips",
+    # "content.footnote.tooltips",
 
     # If you have many content tabs that have the same titles (e.g., "Python",
     # "JavaScript", "Cobol"), this feature causes all of them to switch to
     # at the same time when the user chooses their language in one.
     # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
-    "content.tabs.link",
+    # "content.tabs.link",
 
     # TODO: not sure I understand this one? Is there a demo of this in the docs?
     # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
-    "content.tooltips",
+    # "content.tooltips",
 
     # With this feature enabled, Zensical will automatically hide parts
     # of the header when the user scrolls past a certain point.
@@ -261,15 +264,7 @@ features = [
 # Read more:
 # - https://zensical.org/docs/setup/colors/
 # ----------------------------------------------------------------------------
-[project.theme]
-variant = "classic"
-#[project.theme.palette]
-#scheme = "default"
-#[project.theme.palette]
-palette.primary = "deep orange"
-palette.accent = "amber"
-#primary = "indigo"
-#[[project.theme.palette]]
+# [[project.theme.palette]]
 # scheme = "default"
 # toggle.icon = "lucide/sun"
 # toggle.name = "Switch to dark mode"
