@@ -47,7 +47,7 @@ Copyright &copy; 2026 Denis Shragin
 # Read more: https://zensical.org/docs/setup/navigation/
  nav = [
 #        { "Welcome" = "index.md"},
-        { "Comment écrire un commentaire" = "index.md.md" },
+        { "Comment écrire un commentaire" = "index.md" },
         { "Réception" = "reception.md" },
 #        { "Get started" = "get_started.md" },
 #        { "Markdown in 5min" = "markdown.md" },
